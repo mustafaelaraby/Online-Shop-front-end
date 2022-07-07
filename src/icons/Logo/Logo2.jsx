@@ -1,0 +1,27 @@
+import React, { Component } from 'react'
+import styled from 'styled-components'
+
+const Container = styled.div`
+    position: absolute;
+        left: 4px;
+        top: 7px;
+        z-index: 2;
+`
+
+export default class Logo2 extends Component {
+  render() {
+    return (
+    <Container>
+        <svg width="33" height="30" viewBox="0 0 33 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M32.0988 28.6014C32.1313 28.9985 31.8211 29.339 31.4268 29.339H1.59438C1.2009 29.339 0.890922 29.0002 0.922082 28.6037L3.06376 1.34718C3.09168 0.992702 3.38426 0.719727 3.73606 0.719727H29.1958C29.5468 0.719727 29.8391 0.991612 29.868 1.34499L32.0988 28.6014Z" fill="url(#paint0_linear_150_365)"/>
+            <defs>
+                <linearGradient id="paint0_linear_150_365" x1="25.8733" y1="25.3337" x2="7.51325" y2="3.9008" gradientUnits="userSpaceOnUse">
+                    <stop stopColor="#52D67A"/>
+                    <stop offset="1" stopColor="#5AEE87"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    </Container>
+    )
+  }
+}
